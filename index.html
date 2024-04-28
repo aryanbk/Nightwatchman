@@ -4,10 +4,17 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Screen Wake Lock Demo</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<button id="wakeLockBtn">Request Wake Lock</button>
-		<p id="status"></p>
+		<div id="container" class="night-mode">
+			<div id="bundle">
+				<button id="wakeLockBtn" class="night-mode">
+					Release Wake Lock
+				</button>
+				<p id="status"></p>
+			</div>
+		</div>
 
 		<script src="script.js"></script>
 	</body>
